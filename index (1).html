@@ -1,0 +1,45 @@
+<html>
+    <head>
+       <title>Collage Web App</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link href="style.css" rel="stylesheet">
+
+</head>
+ 
+<body>
+    <center>
+        <h1>Collage Web App
+        
+        </h1>
+        
+        <hr>
+        <h4 style="color:red;">As Soon The Popup Appears,Please Clik Allow.After You Have Spoken A Command</h4>
+    
+        <div class="form-group">
+            <h3>Say "Selfie" For Taking Your Selfies And Make your Colllage</h3>
+            <label>Your voice output : </label>
+            <textarea class="form-control" id="textbox" readonly="true"></textarea>
+        </div><div class="container">
+
+        
+
+        <p>Press the Start button</p>
+        <button class="btn btn-primary" onclick="start();">Start</button>
+        <br>
+        
+        <label>Your webcam : </label>
+        <div id="camera">   </div>
+        <br>
+
+        <label>Your selife Will Display Here: </label>
+         <div id="result"></div>
+    </center>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
